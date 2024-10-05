@@ -26,4 +26,14 @@ console.log(b--);
 let x=5; //= here is assignment operator
 x=x+5;
 x+=5; //shorthand notation for above
+let y=6;
+y=y-5;
+y-=6;
+
+// Comparision Operators : Loose Equality and Strict Equality
+// Both data type and value are checked when checking using '===' ie strict equality
+// Only value is checked when checking using the loose equality operator using "=="
+console.log("Comparision operators");
+console.log(10=="10");
+console.log(10==="10");
 
