@@ -30,10 +30,18 @@ let y=6;
 y=y-5;
 y-=6;
 
-// Comparision Operators : Loose Equality and Strict Equality
+// Comparision Operators : Loose Equality and Strict Equality , <=,>=,!=,==!=,<,> - checks and returns boolean output
 // Both data type and value are checked when checking using '===' ie strict equality
 // Only value is checked when checking using the loose equality operator using "=="
 console.log("Comparision operators");
-console.log(10=="10");
-console.log(10==="10");
+console.log(10=="10"); //loose equality
+console.log(10==="10"); //strict equality
 
+
+// Ternary Operators - syntax: consition ? if true : if false
+// Ternary operator is a concise way to write conditional statements, it is widely used in JavaScript
+let myAge=19;
+(myAge>=18)?console.log("Eligible to vote"):console.log("Not eligible to vote");
+
+// Logical operators are used to connect two or more expressions/connections 
+// eg:(AND &&) (OR ||) ( NOT !)   
